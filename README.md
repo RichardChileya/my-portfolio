@@ -8,7 +8,7 @@ setup a linters for html and css and made sure that files not relevant are ignor
 Added a descriptive README file 
 Added a header and headline section in the index.html file  of the project 
 Added css styling to the html sections 
-
+![](images/Screenshot%201%20of%20project.png)
 ## Built With
 - HTML and CSS
 - Visual Studio Code -Electron framework
@@ -26,11 +26,17 @@ Follow set up instructions from Node Official Website https://nodejs.org/en/down
 Text Editor: VS-Code or any other Code editor 
 
 ### Setup
-Simple Setup  folder
-  portfolioskeleton1
-  package.json
-  index.html
-  styles.css
+To get a local copy up and running follow these simple example steps.
+
+-Clone this repository with
+
+git clone https://github.com/RichardChileya/portfolioskeleton1.git using your terminal or command line.
+
+-Change to the project directory by entering :
+
+cd The-portfolioskeleton1 in the terminal.
+
+-run code . to open it in vscode
 
 ### Install
 
@@ -59,12 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+- Thanks to my coding partners floring and Justice for the help rendered when coding this project
