@@ -72,3 +72,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to my coding partners floring and Justice for the help rendered when coding this project
+
+## 📝 License
+This project is [MIT](./MIT.md) licensed.

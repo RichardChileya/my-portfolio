@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 10;
+  padding: 0;
 }
 
 .main-section {
@@ -139,6 +139,11 @@ body {
   background-color: #fff;
 }
 
+.btn-card:hover {
+  background-color: lightgrey;
+
+}
+
 .image1 {
   display: flex;
   align-items: center;
@@ -146,6 +151,7 @@ body {
   padding: 16px;
   gap: 10px;
   border-radius: 8px;
+  width: 100%;
 }
 
 .menu2 {
@@ -206,6 +212,9 @@ body {
   gap: 8px;
   list-style: none;
 }
+img {
+  width: 100%;
+}
 
 .button1 {
   border-radius: 8px;
@@ -243,7 +252,7 @@ body {
   background: #fff;
   background: url(./images/about-myself.svg) no-repeat;
   background-size: cover;
-  padding: 20px 20px;
+  padding: 0px 20px;
 }
 
 .header-myself {
@@ -255,15 +264,14 @@ body {
   padding-top: 45px;
   line-height: 52px;
   display: flex;
-  margin: 90px 0 10px 0;
+  margin: 90px 0 0px 0;
 }
 
 .heading-about {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  margin-left: 20px;
+  font-size: 44px;
 }
 
 .p3 {
@@ -294,6 +302,10 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
+.button1:hover{
+  background-color: pink;
+  color: yellow;
+}
 
 .languages {
   display: flex;
@@ -323,7 +335,6 @@ body {
   flex-direction: column;
   padding: 12px;
   gap: 12px;
-  width: 327px;
   height: 248.15px;
   row-gap: 12px;
 }
@@ -346,6 +357,7 @@ body {
   border-radius: 8px;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .frameworks {
@@ -452,4 +464,8 @@ hr {
   padding: 12px 16px;
   font-size: 17px;
   margin-top: 10px;
+}
+.btn1:hover{
+  background-color: #e5e5e5;
+  color: #6070ff;
 }
