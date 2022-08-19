@@ -1,6 +1,6 @@
 
 # Project Name: Portfolio Skeleton Project
-
+## Section 1: Header and Headline Section
 > header and and headline section 
 Created new branch according to GitHub flow rules
 Added a .gitignore file
@@ -9,6 +9,12 @@ Added a descriptive README file
 Added a header and headline section in the index.html file  of the project 
 Added css styling to the html sections 
 ![](images/Screenshot%201%20of%20project.png)
+## Section 2: Work Section
+## In this section we: 
+  worked on the work section on the page 
+   added 3 work sections on the design page
+    added an about me section 
+Updated the readme file as the code has been updated 
 ## Built With
 - HTML and CSS
 - Visual Studio Code -Electron framework
@@ -66,3 +72,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to my coding partners floring and Justice for the help rendered when coding this project
+
+## 📝 License
+This project is [MIT](./MIT.md) licensed.
