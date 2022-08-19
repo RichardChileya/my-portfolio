@@ -139,11 +139,6 @@ body {
   background-color: #fff;
 }
 
-.btn-card:hover {
-  background-color: lightgrey;
-
-}
-
 .image1 {
   display: flex;
   align-items: center;
@@ -212,6 +207,7 @@ body {
   gap: 8px;
   list-style: none;
 }
+
 img {
   width: 100%;
 }
@@ -252,7 +248,7 @@ img {
   background: #fff;
   background: url(./images/about-myself.svg) no-repeat;
   background-size: cover;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .header-myself {
@@ -264,7 +260,7 @@ img {
   padding-top: 45px;
   line-height: 52px;
   display: flex;
-  margin: 90px 0 0px 0;
+  margin: 90px 0 0 0;
 }
 
 .heading-about {
@@ -302,9 +298,10 @@ img {
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
-.button1:hover{
-  background-color: pink;
-  color: yellow;
+
+button:hover {
+  background-color: #7f8cff;
+  color: #fff;
 }
 
 .languages {
@@ -464,8 +461,4 @@ hr {
   padding: 12px 16px;
   font-size: 17px;
   margin-top: 10px;
-}
-.btn1:hover{
-  background-color: #e5e5e5;
-  color: #6070ff;
 }
