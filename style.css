@@ -208,6 +208,11 @@ body {
   list-style: none;
 }
 
+.html-tags > li {
+  background-color: #ebebff;
+  color: #6070ff;
+}
+
 img {
   width: 100%;
 }
