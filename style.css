@@ -40,6 +40,8 @@ body {
   background-size: cover;
   min-height: 596px;
   background-color: #fff;
+  border-radius: 0 0 0 70px;
+  margin-bottom: 100px;
 }
 
 .headline-content {
@@ -104,6 +106,7 @@ body {
   gap: 12px;
   background: #fff;
   border-radius: 16px;
+  margin-bottom: 100px;
 }
 
 .left-block {
@@ -414,15 +417,16 @@ hr {
 /* Contact-form section */
 
 #contact-form {
-  background: #6070ff;
-  background-image: url(/images/contact_form_shapes-mobile.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 103px 24px 40px 24px;
-  border-radius: 50px 0 0 0;
+  background: #fff;
 }
 
 .contact-form {
+  background: #6070ff;
+  background-image: url(./images/contact_form_shapes-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 103px 24px 40px 24px;
+  border-radius: 70px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -434,6 +438,7 @@ hr {
 }
 
 .contact-form-h1 {
+  padding-top: 55px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -458,10 +463,11 @@ hr {
 
 .contact-form-list > li {
   list-style: none;
+  
 }
 
 .contact-form-list > li > input {
-  width: 82%;
+  width: 80%;
 }
 
 .contact-name,
