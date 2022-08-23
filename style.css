@@ -421,7 +421,6 @@ hr {
   background-repeat: no-repeat;
   padding: 103px 24px 40px 24px;
   border-radius: 50px 0 0 0;
-  /* margin-top: 100px; */
 }
 
 .contact-form {
@@ -452,11 +451,12 @@ hr {
   padding-bottom: 50px;
 }
 
-.contact-form-list{
+.contact-form-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .contact-form-list>li {
   list-style: none;
 }
