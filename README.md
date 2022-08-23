@@ -15,6 +15,14 @@ Added css styling to the html sections
    added 3 work sections on the design page
     added an about me section 
 Updated the readme file as the code has been updated 
+
+## Section 4: Contact Me Sectin
+##  in this section we collaborated with @jash-debug:
+ we added a contact section
+ we added an html structure for the contact form section
+ we added css style for the form section
+
+    added an about me section 
 ## Built With
 - HTML and CSS
 - Visual Studio Code -Electron framework
@@ -64,6 +72,8 @@ npx stylelint "**/*.{css,scss}"
 
 Contributions, issues, and feature requests are welcome!
 
+## Contributors
+@jash-debug
 
 ## Show your support
 
