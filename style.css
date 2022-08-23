@@ -208,7 +208,7 @@ body {
   list-style: none;
 }
 
-.html-tags>li {
+.html-tags > li {
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
@@ -411,11 +411,10 @@ hr {
   align-items: center;
 }
 
-
 /* Contact-form section */
 
 #contact-form {
-  background: #6070FF;
+  background: #6070ff;
   background-image: url(/images/contact_form_shapes-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -438,7 +437,7 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
   padding-bottom: 12px;
 }
 
@@ -447,7 +446,7 @@ hr {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   padding-bottom: 50px;
 }
 
@@ -457,30 +456,29 @@ hr {
   gap: 20px;
 }
 
-.contact-form-list>li {
+.contact-form-list > li {
   list-style: none;
 }
 
-.contact-form-list>li>input {
+.contact-form-list > li > input {
   width: 82%;
 }
 
 .contact-name,
 .contact-email {
-
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  color: #172B4D;
-  background: #FFFFFF;
+  color: #172b4d;
+  background: #fff;
   padding: 15px 38px 15px 16px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
 .text-area {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   padding: 15px 38px 15px 16px;
   border-radius: 8px;
   font-weight: 400;
@@ -493,8 +491,8 @@ hr {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   padding: 12px 16px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
 }
