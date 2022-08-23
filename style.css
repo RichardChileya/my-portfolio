@@ -6,7 +6,7 @@
 .main-section {
   display: grid;
   flex-direction: column;
-  row-gap: 100px;
+  gap: 100px;
   justify-content: center;
   background: #e5e5e5;
 }
@@ -40,6 +40,8 @@ body {
   background-size: cover;
   min-height: 596px;
   background-color: #fff;
+  border-radius: 0 0 0 70px;
+  margin-bottom: 100px;
 }
 
 .headline-content {
@@ -104,6 +106,7 @@ body {
   gap: 12px;
   background: #fff;
   border-radius: 16px;
+  margin-bottom: 100px;
 }
 
 .left-block {
@@ -256,6 +259,7 @@ img {
   background: url(./images/about-myself.svg) no-repeat;
   background-size: cover;
   padding: 0 20px;
+  padding-bottom: 120px;
 }
 
 .header-myself {
@@ -306,8 +310,19 @@ img {
   border-radius: 8px;
 }
 
+button:enabled {
+  color: #6070ff;
+  background: #fff;
+  border: 1px solid #7f8cff;
+}
+
 button:hover {
-  background-color: #7f8cff;
+  background: #6070ff;
+  color: #fff;
+}
+
+button:active {
+  background: #2230d2;
   color: #fff;
 }
 
@@ -397,4 +412,92 @@ hr {
   line-height: 24px;
   display: flex;
   align-items: center;
+}
+
+/* Contact-form section */
+
+#contact-form {
+  background: #fff;
+}
+
+.contact-form {
+  background: #6070ff;
+  background-image: url(./images/contact_form_shapes-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 103px 24px 40px 24px;
+  border-radius: 70px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.contact-form-h1 {
+  padding-top: 55px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+.contact-form-p1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-bottom: 50px;
+}
+
+.contact-form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form-list > li {
+  list-style: none;
+}
+
+.contact-form-list > li > input {
+  width: 80%;
+}
+
+.contact-name,
+.contact-email {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  background: #fff;
+  padding: 15px 38px 15px 16px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.text-area {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  padding: 15px 38px 15px 16px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.contact-me-button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 8px;
 }
