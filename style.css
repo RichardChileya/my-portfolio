@@ -6,7 +6,7 @@
 .main-section {
   display: grid;
   flex-direction: column;
-  row-gap: 100px;
+  gap: 100px;
   justify-content: center;
   background: #e5e5e5;
 }
@@ -256,6 +256,7 @@ img {
   background: url(./images/about-myself.svg) no-repeat;
   background-size: cover;
   padding: 0 20px;
+  padding-bottom: 120px;
 }
 
 .header-myself {
@@ -416,9 +417,11 @@ hr {
 #contact-form {
   background: #6070FF;
   background-image: url(/images/contact_form_shapes-mobile.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 103px 24px 40px 24px;
+  border-radius: 50px 0 0 0;
+  /* margin-top: 100px; */
 }
 
 .contact-form {
@@ -437,6 +440,7 @@ hr {
   font-size: 40px;
   line-height: 52px;
   color: #FFFFFF;
+  padding-bottom: 12px;
 }
 
 .contact-form-p1 {
@@ -445,6 +449,7 @@ hr {
   line-height: 28px;
   text-align: center;
   color: #EBEBFF;
+  padding-bottom: 50px;
 }
 
 .contact-form-list{
