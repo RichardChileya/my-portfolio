@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 nav > img {
   padding: 20px;
 }
@@ -32,8 +27,6 @@ nav > img {
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
-
-  /* margin: 20px 0; */
   background: #fff;
 }
 
@@ -42,7 +35,6 @@ li {
   list-style: none;
 }
 
-/* Header Medai Query */
 .mobile {
   display: flex;
 }
@@ -77,15 +69,14 @@ li {
 
 .desktop > li {
   padding: 10px;
+  font-size: 17px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
   line-height: 20px;
 }
 
 body {
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -161,8 +152,6 @@ body {
   justify-content: center;
   margin: 16px;
   flex-direction: column;
-
-  /* align-items: center; */
   padding: 16px;
   gap: 12px;
   background: #fff;
@@ -392,8 +381,6 @@ button:active {
 .languages {
   display: flex;
   flex-direction: column;
-
-  /* padding: 30px 0; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -420,8 +407,6 @@ button:active {
   flex-direction: column;
   padding: 12px;
   gap: 12px;
-
-  /* height: 248.15px; */
   row-gap: 12px;
 }
 
@@ -458,13 +443,15 @@ button:active {
 .arrow1 {
   display: flex;
   margin-left: 120px;
-  justify-content: center;
+  justify-content: flex-end;
+  padding: auto;
 }
 
 .arrow2 {
   display: flex;
   margin-left: 180px;
-  justify-content: center;
+  justify-content: flex-end;
+  padding: auto;
 }
 
 hr {
@@ -520,7 +507,6 @@ hr {
   text-align: center;
   color: #ebebff;
   padding-bottom: 50px;
-  width: 53%;
 }
 
 .contact-form-list {
@@ -604,7 +590,7 @@ hr {
     align-self: center;
   }
 
-  .work-section,
+  .work-section, 
   .section2 > img {
     flex: 1;
   }
