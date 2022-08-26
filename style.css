@@ -23,6 +23,19 @@ nav > img {
   row-gap: 80px;
 }
 
+.logo {
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes logo {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.3); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
