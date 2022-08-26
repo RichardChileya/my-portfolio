@@ -590,7 +590,10 @@ hr {
     align-self: center;
   }
 
-  .work-section, 
+  .work-section > img {
+    flex: 1;
+  }
+
   .section2 > img {
     flex: 1;
   }
