@@ -27,6 +27,11 @@ nav > img {
   animation-name: logo;
   animation-duration: 4s;
   animation-iteration-count: 3;
+  padding-left: 10%;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  color: #6070ff;
 }
 
 @keyframes logo {
@@ -73,9 +78,12 @@ li {
   .header {
     position: fixed;
     top: 0;
-    width: 85%;
-    padding-top: 25px;
-    padding-left: 150px;
+    width: 100%;
+    left: 0;
+    padding: 0;
+
+    /* padding-top: 25px;
+    padding-left: 150px; */
   }
 
   .headline-section {
@@ -85,6 +93,7 @@ li {
 
 .desktop > .menu-list {
   padding-right: 10px;
+  padding-top: 20px;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -457,7 +466,7 @@ button:active {
   left: 375px;
   top: 4769px;
   background: #fff;
-  padding: 30px;
+  padding: 30px 0;
   justify-content: space-between;
 }
 
@@ -468,6 +477,7 @@ button:active {
 .frame-arrow {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .arrow1 {
@@ -492,7 +502,7 @@ hr {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -552,6 +562,12 @@ hr {
 
 .contact-form-list > li > input {
   width: 80%;
+}
+
+.html-tags > li:hover {
+  background: #6070ff;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-name,
