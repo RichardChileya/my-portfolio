@@ -36,6 +36,12 @@ we added css style for the form section
 - Visual Studio Code -Electron framework
 - Technologies used
 
+## Live Demo (if available)
+
+[Live Demo Link](https://richardchileya.github.io/portfolioskeleton1/)
+
+## Getting Started
+
 ## Getting Started
 
 **This project include linters for HTML,CSS, and Open Source Document
@@ -86,6 +92,9 @@ Contributions, issues, and feature requests are welcome!
 ## Contributors
 
 @jash-debug
+
+Feel free to check the [issues page](https://github.com/RichardChileya/portfolioskeleton1/issues).
+
 
 ## Show your support
 
