@@ -81,9 +81,6 @@ li {
     width: 100%;
     left: 0;
     padding: 0;
-
-    /* padding-top: 25px;
-    padding-left: 150px; */
   }
 
   .headline-section {
@@ -677,8 +674,8 @@ hr {
   .paragraph2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 17px;
     line-height: 24px;
     padding-right: 40%;
   }
