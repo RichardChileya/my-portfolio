@@ -15,6 +15,48 @@ nav > img {
   background: #e5e5e5;
 }
 
+<<<<<<< HEAD
+=======
+ ul.mobile-menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+  background-color: #2230d2;
+  width: 100%;
+  color: #fff;
+  display: block;
+  height: 100vh;
+  opacity: 0.9;
+  padding: 10% 2%;
+}
+ul.mobile-menu li.menu-list{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 1.2rem;
+}
+ul.mobile-menu li.menu1{
+  width: 90%;
+  
+  height: 20px;
+
+}
+.bi{
+  width: 100%;
+  text-align: right;
+  height: inherit;
+  font-size: 24px;
+}
+.menu-list{
+
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+>>>>>>> 36818f0fd81066188fa72a8803e2e930c4ae7d9e
 .container {
   display: grid;
   flex-direction: column;
@@ -66,9 +108,11 @@ li {
     display: none;
   }
 
-  .desktop {
+  ul.desktop {
     display: flex;
+    position: inherit;
     padding-right: 150px;
+    opacity: 0;
   }
 
   .work-section > img {
