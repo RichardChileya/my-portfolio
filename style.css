@@ -6,9 +6,6 @@
 nav > img {
   padding: 20px;
 }
-.mobile-menu{
-  display: none;
-}
 
 .main-section {
   display: grid;
@@ -16,24 +13,6 @@ nav > img {
   gap: 100px;
   justify-content: center;
   background: #e5e5e5;
-}
-
-.mobile-menu {
-  position: fixed;
-  left: -100%;
-  top: 80px;
-  flex-direction: column;
-  background-color: #2230d2;
-  text-align:start;
-  width: 100%;
-  color: white;
-}
-.menu-list{
-
-  color: white;
-  font-size: 32px;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -640,11 +619,6 @@ hr {
 }
 
 @media (min-width: 768px) {
-
-  .nav-menu{
-    display: block;
-  }
-  
   .language-list {
     display: flex;
     flex-direction: row;
