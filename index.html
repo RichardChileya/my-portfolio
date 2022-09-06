@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
@@ -18,14 +19,21 @@
   <!-- Header Section -->
   <header class="header">
     <!-- logo -->
-    <h2 class="logo">Richard Chileya</h2>
-    <!-- nav /menu -->
     <nav>
-      <a href="#"><img class="mobile" src="./images/nav-icon.svg" alt="nav-bar"></a>
-      <ul class="desktop">
-        <li class="menu-list">Portfolio</li>
-        <li class="menu-list">About </li>
-        <li class="menu-list">Contact</li>
+    <h2 class="logo">Richard</h2>
+    <!-- nav /menu -->
+    
+    <div class="hamburger">
+      <div class="ham1"></div>
+      <div class="ham2"></div>
+      <div class="ham3"></div>
+    </div>
+    
+      <ul id="navMobile" class="desktop mobile-menu">
+        <!-- <li class="menu1"><i id="exitBtn" class="bi bi-x-lg"></i></li> -->
+        <li class="menu-list"><a href=" #portfolio">Portfolio</a></li>
+        <li class="menu-list"> <a href="#about-myself"> About</a></li>
+        <li class="menu-list"><a href="#contact-form"> Contact </a></li>
       </ul>
     </nav>
 
@@ -65,11 +73,10 @@
       </section>
 
       <!-- Work Section 1 -->
-      <section class="work-section ">
+      <section id="portfolio" class="work-section ">
         <div class="image1">
         </div>
         <img class="img1 mobile" src="./images/snapshot.png" alt="work-sample">
-        <img class="img1 desktop" src="./images/snapshot-2.png" alt="stories-image">
         <!-- <img class="img1 desktop" src="./images/Snapshoot-desktop2.svg" alt="stories-image"> -->
         <section class="left-block">
           <h2 class="title"> Tonic </h2>
@@ -287,7 +294,7 @@
 
   </main>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>

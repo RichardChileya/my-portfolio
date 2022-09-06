@@ -3,8 +3,14 @@
   padding: 0;
 }
 
-nav > img {
-  padding: 20px;
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-section {
@@ -13,6 +19,32 @@ nav > img {
   gap: 100px;
   justify-content: center;
   background: #e5e5e5;
+}
+
+.hamburger {
+  z-index: 1;
+  display: block;
+}
+
+.ham1 {
+  margin: 4px 0;
+  height: 2px;
+  width: 20px;
+  background: #2230d2;
+}
+
+.ham2 {
+  margin: 4px 0;
+  height: 2px;
+  width: 20px;
+  background: #2230d2;
+}
+
+.ham3 {
+  margin: 4px 0;
+  height: 2px;
+  width: 20px;
+  background: #2230d2;
 }
 
 .container {
@@ -24,27 +56,37 @@ nav > img {
 }
 
 .logo {
+  margin-left: 10%;
   animation-name: logo;
   animation-duration: 4s;
   animation-iteration-count: 3;
-  padding-left: 10%;
-  padding-top: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 26px;
   color: #6070ff;
 }
 
 @keyframes logo {
-  0% { transform: scale(1); }
-  25% { transform: scale(1.3); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.3);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 15px;
+  position: fixed;
+  width: 90%;
+  padding: 12px 5%;
   background: #fff;
 }
 
@@ -59,44 +101,6 @@ li {
 
 .desktop {
   display: none;
-}
-
-@media (min-width: 760px) {
-  .mobile {
-    display: none;
-  }
-
-  .desktop {
-    display: flex;
-    padding-right: 150px;
-  }
-
-  .work-section > img {
-    flex: 1;
-  }
-
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    padding: 0;
-  }
-
-  .headline-section {
-    padding: 0 11%;
-  }
-}
-
-.desktop > .menu-list {
-  padding-right: 10px;
-  padding-top: 20px;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  color: #6070ff;
 }
 
 body {
@@ -180,20 +184,6 @@ body {
   background: #fff;
   border-radius: 16px;
   margin-bottom: 100px;
-}
-
-@media (min-width: 768px) {
-  .work-section {
-    flex-direction: row;
-    height: 11%;
-    flex: 1;
-  }
-
-  .section2 {
-    display: flex;
-    flex-direction: row-reverse;
-    flex: 1;
-  }
 }
 
 .left-block {
@@ -287,6 +277,10 @@ body {
   align-items: center;
   gap: 8px;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .html-tags > li {
@@ -600,7 +594,116 @@ hr {
   border-radius: 8px;
 }
 
+@media (max-width: 766px) {
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    line-height: 44px;
+    z-index: 1;
+    left: -100%;
+    transition: all 0.5s ease-in-out;
+    height: 100vh;
+  }
+
+  .hamburger.active {
+    display: block;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .hamburger.active .ham1 {
+    transform: rotate(45deg) translateY(8px);
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .hamburger.active .ham2 {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .hamburger.active .ham3 {
+    transform: rotate(-45deg) translateY(-8px);
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .mobile-menu.in-active {
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #2230d2;
+    opacity: 0.9;
+    height: 100vh;
+    font-size: 32px;
+    line-height: 44px;
+    padding-top: 50px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .menu-list {
+    color: #fff;
+    text-align: center;
+    justify-content: start;
+    padding-left: 28px;
+    font-family: 'poppins', sans-serif;
+    padding-top: 40px;
+    font-weight: 600;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
 @media (min-width: 768px) {
+  .header {
+    position: fixed;
+    width: 90%;
+    padding: 20px 10%;
+    background: #fff;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu-list {
+    padding-top: 5px;
+    gap: 10px;
+    display: flex;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #2230d2;
+  }
+
+  .desktop {
+    display: flex;
+    padding-right: 8.5%;
+  }
+
+  .work-section {
+    flex-direction: row;
+    height: 11%;
+    flex: 1;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+  }
+
+  .headline-section {
+    padding: 0 11%;
+  }
+
   #about-myself {
     flex-direction: row;
     padding: 5% 5% 20%;
@@ -613,9 +716,7 @@ hr {
   #about-myself > div {
     flex: 1;
   }
-}
 
-@media (min-width: 768px) {
   .language-list {
     display: flex;
     flex-direction: row;
