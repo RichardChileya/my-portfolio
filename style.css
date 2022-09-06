@@ -11,7 +11,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .main-section {
@@ -187,8 +186,6 @@ body {
   margin-bottom: 100px;
 }
 
-
-
 .left-block {
   min-height: 300px;
   display: flex;
@@ -282,7 +279,11 @@ body {
   list-style: none;
 }
 
-.html-tags>li {
+a {
+  text-decoration: none;
+}
+
+.html-tags > li {
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
@@ -546,15 +547,15 @@ hr {
   gap: 20px;
 }
 
-.contact-form-list>li {
+.contact-form-list > li {
   list-style: none;
 }
 
-.contact-form-list>li>input {
+.contact-form-list > li > input {
   width: 80%;
 }
 
-.html-tags>li:hover {
+.html-tags > li:hover {
   background: #6070ff;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -639,7 +640,6 @@ hr {
     line-height: 44px;
     padding-top: 50px;
     transition: all 0.5s ease-in-out;
-
   }
 
   .menu-list {
@@ -665,6 +665,7 @@ hr {
     padding: 20px 10%;
     background: #fff;
   }
+
   .mobile {
     display: none;
   }
@@ -685,14 +686,6 @@ hr {
   .desktop {
     display: flex;
     padding-right: 8.5%;
-  }
-
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    padding: 0;
   }
 
   .work-section {
@@ -716,7 +709,7 @@ hr {
     padding: 5% 5% 20%;
   }
 
-  .frameworks>hr {
+  .frameworks > hr {
     flex-direction: column;
   }
 
