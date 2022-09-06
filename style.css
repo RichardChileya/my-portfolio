@@ -57,6 +57,7 @@ nav {
 }
 
 .logo {
+  margin-left: 10%;
   animation-name: logo;
   animation-duration: 4s;
   animation-iteration-count: 3;
@@ -658,6 +659,12 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .header {
+    position: fixed;
+    width: 90%;
+    padding: 20px 10%;
+    background: #fff;
+  }
   .mobile {
     display: none;
   }
