@@ -20,15 +20,15 @@
   <header class="header">
     <!-- logo -->
     <nav>
-    <h2 class="logo">Richard</h2>
-    <!-- nav /menu -->
-    
-    <div class="hamburger">
-      <div class="ham1"></div>
-      <div class="ham2"></div>
-      <div class="ham3"></div>
-    </div>
-    
+      <h2 class="logo">Richard</h2>
+      <!-- nav /menu -->
+
+      <div class="hamburger">
+        <div class="ham1"></div>
+        <div class="ham2"></div>
+        <div class="ham3"></div>
+      </div>
+
       <ul id="navMobile" class="desktop mobile-menu">
         <!-- <li class="menu1"><i id="exitBtn" class="bi bi-x-lg"></i></li> -->
         <li class="menu-list"><a href=" #portfolio">Portfolio</a></li>
@@ -39,12 +39,13 @@
 
   </header>
   <!-- Main Section -->
+  <div class="popup-container">
+  </div>
   <main class="container">
-    <section class="main section">
+    <div class="main section">
 
       <!-- Headline Section -->
-      <section class="headline-section">
-
+      <div class="headline-section">
         <Section class="headline-content">
           <h2 class="heading1">I’m Richard <br> Glad to see you!!</h2>
 
@@ -70,13 +71,14 @@
             </ul>
           </footer>
         </Section>
-      </section>
+      </div>
 
       <!-- Work Section 1 -->
-      <section id="portfolio" class="work-section ">
+      <div id="portfolio" class="work-section ">
         <div class="image1">
         </div>
-        <img class="img1 mobile" src="./images/snapshot.png" alt="work-sample">
+        <img class="img1 mobile" src="./images/snapshot3.svg" alt="work-sample">
+        <img class="img1 desktop" src="./images/snapshot4.svg" alt="stories-image">
         <!-- <img class="img1 desktop" src="./images/Snapshoot-desktop2.svg" alt="stories-image"> -->
         <section class="left-block">
           <h2 class="title"> Tonic </h2>
@@ -88,7 +90,7 @@
             <li><img src="./images/Counter.svg" alt="counter"></li>
             <li> <a class="year" href="#">Year</a></li>
           </ul>
-          
+
           <p class="paragraph2">A daily selection of privately personalized reads; no accounts or sign-ups
             required.</p>
           <ul class="html-tags">
@@ -96,17 +98,18 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <button type="button" class="btn-card">See Project</button>
+          <button type="button" class="btn-card" id="0">See Project</button>
         </section>
 
-      </section>
+      </div>
 
       <!-- Work Section 2 -->
 
-      <section class="work-section section2">
+      <div class="work-section section2">
         <div class="image1">
         </div>
         <img class="img1" src="./images/snapshot4.svg" alt="work-sample">
+        <!-- <img class="img1 desktop" src="./images/snapshot-2.png" alt="stories-image"> -->
 
         <section class="left-block">
           <h2 class="title"> Multi-Post
@@ -120,7 +123,7 @@
           </ul>
           <p class="paragraph2">
             An Experimental content creation feature that allows users to add to an existing story
-             over the course of a day without spamming their friends..
+            over the course of a day without spamming their friends..
           </p>
           <ul class="html-tags">
             <li>html</li>
@@ -131,15 +134,15 @@
           <button type="button" class="btn-card">See Project</button>
         </section>
 
-      </section>
+      </div>
 
       <!-- Work Section 3 -->
 
-      <section class="work-section">
+      <div class="work-section">
         <div class="image1">
         </div>
-        <img class="img1" src="./images/snapshot.png" alt="stories-image">
-       
+        <img class="img1" src="./images/snapshot3.svg" alt="stories-image">
+
         <section class="left-block">
           <h2 class="title"> Facebook 360 </h2>
           <ul class="menu2">
@@ -149,22 +152,22 @@
             <li><img src="./images/Counter.svg" alt="counter"></li>
             <li> <a class="year" href="#">2015</a></li>
           </ul>
-          <p class="paragraph2">Exploring the future of media in Facebook's first Virtual 
+          <p class="paragraph2">Exploring the future of media in Facebook's first Virtual
             Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-            <ul class="html-tags">
-              <li>html</li>
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>javaScript</li>
-            </ul>
-          <button type="button" class="btn-card">See Project</button>
+          <ul class="html-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button type="button" class="btn-card" id="1">See Project</button>
         </section>
 
-      </section>
+      </div>
 
       <!-- Work Section 4 -->
 
-      <section class="work-section section2">
+      <div class="work-section section2">
         <div class="image1">
         </div>
         <img class="img1" src="./images/stories.svg" alt="stories-image">
@@ -179,17 +182,17 @@
             <li> <a class="year" href="#">2018</a></li>
           </ul>
           <p class="paragraph2">A smart assistant to make driving more safe,
-             efficient, and fun by unlocking your most expensive computer: your car.</p>
-             <ul class="html-tags">
-              <li>html</li>
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>javaScript</li>
-            </ul>
-          <button type="button" class="btn-card">See Project</button>
+            efficient, and fun by unlocking your most expensive computer: your car.</p>
+          <ul class="html-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button type="button" class="btn-card" id="2">See Project</button>
         </section>
 
-      </section>
+      </div>
 
       <!-- About Myself Section -->
 
@@ -220,9 +223,9 @@
         <div class="languages">
           <div class="frame-arrow">
             <span class="frameheading">Languages</span>
-          <span class="arrow-down"><img src="./images/arrow-down.svg" alt=""></span>
+            <span class="arrow-down"><img src="./images/arrow-down.svg" alt=""></span>
           </div>
-          
+
           <ul class="language-list">
             <li class="java1">
               <a href="#" class="java-script"> <img src="./images/java-script.svg" alt="java-script"></a>
@@ -239,15 +242,15 @@
           </ul>
           <div class="frame-arrow">
             <span class="frameworks">Frameworks </span>
-              <!-- <h2 class="frameheading">Frameworks </h2> -->
-              <span class="arrow1"> <img src="./images/right-arrow.svg" alt=""> </span>
+            <!-- <h2 class="frameheading">Frameworks </h2> -->
+            <span class="arrow1"> <img src="./images/right-arrow.svg" alt=""> </span>
           </div>
-            <hr />
-          <div class="frame-arrow"> 
+          <hr />
+          <div class="frame-arrow">
             <span class="frameworks">Skills </span>
-              <!-- <h2 class="frameheading">Skills </h2> -->
-              <span class="arrow1"> <img src="./images/right-arrow.svg" alt=""> </span>
-            
+            <!-- <h2 class="frameheading">Skills </h2> -->
+            <span class="arrow1"> <img src="./images/right-arrow.svg" alt=""> </span>
+
           </div>
           <hr />
         </div>
@@ -266,35 +269,37 @@
             that needs coding. I’d love to help with it
           </p>
 
-          <form action="https://formspree.io/f/mnqrnjol" method="POST">
-            <ul class="contact-form-list">
-              <li>
-                <input type="text" id="firstName" name="name" class="contact-name poppins" placeholder="Richard Sage"
-                  required maxlength="30" />
-              </li>
-              <li>
-                <input type="email" id="email" name="email" class="contact-email poppins"
-                  placeholder="sage@rico.com" required />
-              </li>
-              <li>
+          <form id="form" action="https://formspree.io/f/mnqrnjol" method="POST">
+            <div class="contact-form-list">
+              <div class="input-control">
+                <input type="text" id="firstName" name="name" class="contact-name poppins" placeholder="Richard "
+                  maxlength="30" />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <input type="text" id="email" name="email" class="contact-email poppins" placeholder="rico@gmail.com" />
+                <div class="error"></div>
+              </div>
+
+              <div class="input-control">
                 <textarea id="message" class="text-area poppins" name="message"
-                  placeholder="Write your message text here" cols="30" rows="8" maxlength="500" required></textarea>
-              </li>
-              <li>
-                <button class="contact-me-button poppins" type="submit">Get In Touch</button>
-              </li>
-            </ul>
+                  placeholder="Write your message text here" cols="30" rows="8" maxlength="500"></textarea>
+                <div class="error"></div>
+              </div>
+
+              <button class="contact-me-button poppins" type="submit">Get In Touch</button>
+            </div>
           </form>
 
         </div>
 
       </section>
 
-    </section>
+    </div>
 
   </main>
 
-<script src="script.js"></script>
+  <script defer src="script.js"></script>
 </body>
 
 </html>
