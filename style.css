@@ -13,6 +13,53 @@ nav {
   align-items: center;
 }
 
+/* Pop Code  */
+
+.popup-container {
+  display: none;
+  flex-direction: column;
+  min-height: 95vh;
+  width: 100vw;
+  padding: 100px 24px;
+  /* margin-top: 150px; */
+  top: 70%;
+  align-content: center;
+}
+
+.popup-container .overlay {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 100vw;
+  height: 100vh;
+  background:rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  display: none;
+}
+
+.pop-list {
+  display: flex;
+  column-gap: 24px;
+}
+.pop-list li {
+   background-color: #7a869a;
+   padding: 10px;
+} 
+.popup-container p {
+  padding: 20px;
+}
+
+.btnContainer {
+  padding: 10px;
+
+}
+
+.btn-see-popup {
+  padding: 5px;
+  margin: 5px;
+}
+
+
 .main-section {
   display: grid;
   flex-direction: column;
