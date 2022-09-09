@@ -59,7 +59,7 @@
     </section>
 
     <section class="work-section" id="work">
-   
+
     </section>
 
     <section class="section-about" id="about-myself">
@@ -120,11 +120,21 @@
         <p class="con-paragraph">If you have an application you are interested in developing, a feature that
           you
           need built or a project that needs coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/mnqlovzq" method="POST" class="con-form">
-          <input type="text" name="_name" placeholder="Name" maxlength="30" class="form-text" required>
-          <input type="email" name="_reply" placeholder="Please enter your Email" class="form-text" required>
+
+        <form no id="form" action="https://formspree.io/f/mnqrnjol" method="POST" class="con-form">
+          <div class="input-control">
+            <input type="text" name="_name" placeholder="Name" maxlength="30" id="firstName" class="form-text" required>
+          </div>
+
+          <div class="input-control">
+            <input type="email" name="email" id="email" placeholder="Enter your Email" class="form-text">
+          </div>
+
           <textarea name="_message" placeholder="Write your message here" cols="20" rows="10" maxlength="500"
             class="form-text message" required></textarea>
+
+            <div id="error"></div>
+
           <button class="con-but" type="submit">Get in touch</button>
         </form>
       </div>

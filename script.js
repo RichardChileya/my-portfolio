@@ -291,3 +291,24 @@ anchorLink.forEach((anchor) => {
 });
 
 window.onload = showWorks();
+
+/*FORM VALIDATION*/ 
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const textMessage = document.getElementById('error');
+
+form.addEventListener('submit', (e)=> {
+  email.value;
+  let emailChecker = email.value.toLowerCase();
+  if(email.value !==emailChecker || email.value ===''){
+    e.preventDefault();
+    textMessage.innerHTML ="*email must be in lower case <br> * form not sent";
+  } else{
+    form.submit();
+  }
+
+});
+email.addEventListener('click', () =>{
+  textMessage.textContent = ''
+});
