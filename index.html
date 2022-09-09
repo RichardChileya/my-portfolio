@@ -121,19 +121,20 @@
           you
           need built or a project that needs coding. I’d love to help with it</p>
 
-        <form novalidate id="form" action="https://formspree.io/f/mnqrnjol" method="POST" class="con-form">
+        <form no id="form" action="https://formspree.io/f/mnqrnjol" method="POST" class="con-form">
           <div class="input-control">
             <input type="text" name="_name" placeholder="Name" maxlength="30" id="firstName" class="form-text" required>
-            <div class="error"></div>
           </div>
 
           <div class="input-control">
-            <input type="text" name="email" id="email" placeholder="Enter your Email" class="form-text">
-            <div id="error"></div>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" class="form-text">
           </div>
 
           <textarea name="_message" placeholder="Write your message here" cols="20" rows="10" maxlength="500"
             class="form-text message" required></textarea>
+
+            <div id="error"></div>
+
           <button class="con-but" type="submit">Get in touch</button>
         </form>
       </div>
