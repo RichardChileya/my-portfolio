@@ -16,7 +16,7 @@ list.forEach((lists) => {
   });
 });
 
-/* Pop UP WINDOW CODE*/
+/* Pop UP WINDOW CODE */
 
 const cardProjects = [
   {
@@ -28,7 +28,6 @@ const cardProjects = [
     Tech2: ['github', 'bootstrap', 'ruby'],
     Canopy: ['Canopy', 'Back-end', '2015'],
   },
-
 ];
 
 const btn = document.querySelectorAll('.btn-card');
@@ -84,14 +83,9 @@ function displayAll(id) {
 </div>
 `;
 }
-function togglePopup(){
-  document.querySelector('.close-btn').classList.toggle('active');
-}
-
 
 btn.forEach((eachbtn) => {
   eachbtn.addEventListener('click', (e) => {
     displayAll(e.target.id);
   });
-
 });
