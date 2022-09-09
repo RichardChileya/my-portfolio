@@ -303,7 +303,7 @@ form.addEventListener('submit', (e)=> {
   let emailChecker = email.value.toLowerCase();
   if(email.value !==emailChecker || email.value ===''){
     e.preventDefault();
-    textMessage.innerHTML ="provide a valid email";
+    textMessage.innerHTML ="*email must be in lower case <br> * form not sent";
   } else{
     form.submit();
   }
