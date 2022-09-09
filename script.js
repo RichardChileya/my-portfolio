@@ -315,3 +315,33 @@ email.addEventListener('click', () => {
 
 /* Data Storage */
 
+const Name = document.querySelector('.name');
+const NameValue = localStorage.getItem('formName');
+
+if (NameValue) {
+  Name.value = NameValue;
+}
+
+const Email = document.querySelector('.email');
+const EmailValue = localStorage.getItem('formEmail');
+
+if (EmailValue) {
+  Email.value = EmailValue;
+}
+
+const Texted = document.querySelector('.txtarea');
+const formTextValue = localStorage.getItem('formMessage');
+
+if (formTextValue) {
+  Texted.value = formTextValue;
+}
+
+Name.addEventListener('input', (e) => {
+  localStorage.setItem('formName', e.target.value);
+});
+Email.addEventListener('input', (e) => {
+  localStorage.setItem('formEmail', e.target.value);
+});
+Texted.addEventListener('input', (e) => {
+  localStorage.setItem('formMessage', e.target.value);
+});
