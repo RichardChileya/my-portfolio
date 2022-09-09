@@ -291,3 +291,5 @@ anchorLink.forEach((anchor) => {
 });
 
 window.onload = showWorks();
+
+/*FORM VALIDATION*/ 
