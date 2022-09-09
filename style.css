@@ -599,6 +599,7 @@ a .btn-two {
   flex-direction: column;
   margin: 30px;
   gap: 20px;
+  align-items: center;
 }
 
 .form-text {
@@ -625,6 +626,7 @@ a .btn-two {
 .message {
   height: 170px;
   border-radius: 8px;
+  width: 40%;
 }
 
 .skills-section {
