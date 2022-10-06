@@ -19,8 +19,8 @@ const cards = [
     featuredImage: './images/photo1dt.png',
     desktopImage: 'images/photo1dt.png',
     technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/MyPortfolio2/',
-    linktosource: 'https://github.com/KayLemba/MyPortfolio2',
+    linktoliveversion: 'https://richardchileya.github.io/capstone-project-1/',
+    linktosource: 'https://github.com/RichardChileya/capstone-project-1',
   },
   {
     key: 1,
@@ -121,12 +121,12 @@ const Openpopup = ({
 function showWorks() {
   const works = [
     {
-      title: 'Tonic',
-      options: ['CANOPY', 'Back End Dev', '2015'],
-      imgMobile: 'images/photo1.png',
-      imgDesktop: 'images/photo1dt.png',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      descriptionD: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      title: 'Geolex Digital Space',
+      options: ['Capstone Project 1', 'Full-stack', '20202'],
+      imgMobile: 'images/first-capstone.png',
+      imgDesktop: 'images/first-capstone.png',
+      description: 'A Project about a Digital Safety Event .',
+      descriptionD: 'A Project about Cyber Security and Digital Safety.',
       languages: ` <li class="langu langu-a">html</li>
       <li class="langu langu-b">css</li>
       <li class="langu langu-c">javascript</li>
