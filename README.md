@@ -42,7 +42,7 @@ we added css style for the form section
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://richardchileya.github.io/portfolioskeleton1/)
+[Live Demo Link](https://richardchileya.github.io/my-portfolio/)
 
 ## Getting Started
 
