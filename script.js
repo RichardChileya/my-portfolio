@@ -122,7 +122,7 @@ function showWorks() {
   const works = [
     {
       title: 'Geolex Digital Space',
-      options: ['Capstone Project 1', 'Full-stack', '20202'],
+      options: ['Capstone Project 1', 'Full-stack', '2022'],
       imgMobile: 'images/first-capstone.png',
       imgDesktop: 'images/first-capstone.png',
       description: 'A Project about a Digital Safety Event .',
