@@ -1,8 +1,8 @@
-# Project Name:My Portfolio Project
-# PROJECT SUMMARY
 This is project is my based on building my personal Portfolio Template following Figma Design Template. 
 This project was built with HTML-CSS-JAVASCRIPT using dynamic coding based on Modal framework. 
 As a template. this project with  other projects that i work on to complete my portfolio.
+
+# Project Name:My Portfolio Project
 
 ## Section 1: Header and Headline Section
 
