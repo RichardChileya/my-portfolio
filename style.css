@@ -316,6 +316,11 @@ main {
   content: none;
 }
 
+.linkedin-icon {
+  width: 20px;
+  color: #5e6c84;
+}
+
 .langu {
   background-color: #ebebff;
   padding: 10px;
