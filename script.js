@@ -137,7 +137,7 @@ function showWorks() {
     {
       title: 'Around the World',
       options: ['Capstone Project', 'Frontend Dev', '2022'],
-      imgMobile: 'images/photo2.png',
+      imgMobile: 'images/Around the world.png',
       imgDesktop: 'images/Around the world.png',
       description: 'Around the word, A React application : Implementing React Core features varying from components, Props, States, API, To Loggers, the project displays content fetched from an API for world information on countries and more.',
       descriptionD: 'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
