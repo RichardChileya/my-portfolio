@@ -611,6 +611,7 @@ a .btn-two {
   border: 1px solid white;
   border-radius: 8px;
   height: 48px;
+  width: 110%;
   padding: 15px;
   font-family: Poppins, sans-serif;
 }
@@ -631,7 +632,7 @@ a .btn-two {
 .message {
   height: 170px;
   border-radius: 8px;
-  width: 40%;
+  width: 50%;
 }
 
 .skills-section {
