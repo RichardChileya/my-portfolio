@@ -51,7 +51,7 @@ const cards = [
     name: 'Space Travellers Hub', // modal popup
     option: ['NASA ', 'Lead Developer', '2022'],
     optionMobile: ['CANOPY', 'Back End Dev', '2015'],
-    description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description: ' A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile. Utilizing the SpaceX API to display real-time information about upcoming rocket launches and missions.',
     featuredImage: './images/SpaceHub.png',
     desktopImage: './images/SpaceHub.png',
     technologies: ['html', 'css', 'javascript', 'git hub', 'ruby', 'Bootstrap'],
@@ -169,7 +169,7 @@ function showWorks() {
       options: ['Uber', 'Lead Developer', '2018'],
       imgMobile: './images/SpaceHub.png',
       imgDesktop: './images/SpaceHub.png',
-      description: 'A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile..',
+      description: 'A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile.',
       descriptionD: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       languages: `<li class="langu">html</li>
       <li class="langu">css</li>
