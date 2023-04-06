@@ -16,7 +16,7 @@ const cards = [
     option: ['CANOPY', 'Back End Dev', '2015'],
     optionMobile: ['CANOPY', 'Back End Dev', '2015'],
     description: 'Geolex Digital Space is an online events website designed to showcase digital events happening across the globe. As a Capstone project, the website is built using HTML, CSS, and JavaScript. It offers users a comprehensive and user-friendly platform to explore various digital events, including webinars, conferences, and virtual workshops The website iss design is modern and visually appealing, making it easy to navigate and browse through different events. The website is responsiveness ensures that users can access it on any device, including smartphones and tablets.',
-    featuredImage: './images/first-capstone.png',
+    featuredImage: './images/portfolio images/geolex space.png',
     desktopImage: './images/first-capstone.png',
     technologies: ['html', 'css', 'javascript', 'ruby'],
     linktoliveversion: 'https://richardchileya.github.io/capstone-project-1/',
@@ -123,8 +123,8 @@ function showWorks() {
     {
       title: 'Geolex Digital Space',
       options: ['Capstone Project 1', 'Full-stack', '2022'],
-      imgMobile: './images/first-capstone.png',
-      imgDesktop: './images/first-capstone.png',
+      imgMobile: './images/portfolio images/geolexspace 2.png',
+      imgDesktop: './images/portfolio images/geolex space.png',
       description: 'Geolex Digital Space is a project showcasing an online events website that highlights digital events happening worldwide. Built using HTML, CSS, and JavaScript, the website provides a comprehensive and user-friendly platform for users to explore webinars, conferences, virtual workshops, and more. Its modern and visually appealing design allows for easy navigation.',
       descriptionD: 'A Project about Cyber Security and Digital Safety.',
       languages: ` <li class="langu langu-a">html</li>
@@ -137,8 +137,8 @@ function showWorks() {
     {
       title: 'Around the World',
       options: ['Capstone Project', 'Frontend Dev', '2022'],
-      imgMobile: 'images/Around the world.png',
-      imgDesktop: 'images/Around the world.png',
+      imgMobile: 'images/portfolio images/countries api.png',
+      imgDesktop: 'images/portfolio images/countries api.png',
       description: 'Around the word, A React application : Implementing React Core features varying from components, Props, States, API, To Loggers, the project displays content fetched from an API for world information on countries and more.',
       descriptionD: 'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
       languages: `<li class="langu">html</li>
@@ -152,8 +152,8 @@ function showWorks() {
     {
       title: 'Awesome Books ',
       options: ['MicroV Library', 'Full Stack Dev', 'Sept-2022'],
-      imgMobile: 'images/Awesome Books.png',
-      imgDesktop: 'images/Awesome Books.png',
+      imgMobile: 'images/portfolio images/BookStore image.png',
+      imgDesktop: 'images/portfolio images/BookStore image.png',
       description: "The Bookstore web app is a React-based application that allows users to search for books, add books from their favorite authors to a personal library, leave reviews and ratings, and discover new books. The app makes use of Redux middleware for asynchronous communication between the app and the API.",
       descriptionD: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       languages: `<li class="langu">html</li>
@@ -167,8 +167,8 @@ function showWorks() {
     {
       title: 'Space Travellers Rico',
       options: ['Uber', 'Lead Developer', '2018'],
-      imgMobile: './images/SpaceHub.png',
-      imgDesktop: './images/SpaceHub.png',
+      imgMobile: './images/portfolio images/Space-travellers.png',
+      imgDesktop: './images/portfolio images/Space-travellers.png',
       description: 'A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile.',
       descriptionD: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       languages: `<li class="langu">html</li>
