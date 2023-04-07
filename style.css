@@ -1151,3 +1151,19 @@ a .btn-two {
     animation: myrotate 3s;
   }
 }
+
+.show-frame {
+  display: flex;
+}
+
+.show-skills {
+  display: flex;
+}
+
+.frame-stack {
+  align-items: center;
+  padding: 4px;
+  color: #fff;
+  background-color: #5e6c84;
+  gap: 4px;
+}

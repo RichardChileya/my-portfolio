@@ -9,6 +9,21 @@ const modal = document.querySelector('.modal');
 const modalInner = document.querySelector('.modal-inner');
 const width = window.innerWidth;
 
+const frameworksButton = document.querySelector('.framework-button');
+const showframeworks = document.querySelector('.show-frame');
+
+frameworksButton.addEventListener('click', function() {
+  showframeworks.style.display = 'flex';
+});
+const skillsButton = document.querySelector('.skills-button');
+const showSkills = document.querySelector('.show-skills');
+
+skillsButton.addEventListener('click', function(e) {
+e.preventDefault();
+  showSkills.style.display = 'flex';
+});
+
+
 const cards = [
   {
     key: 0,
@@ -17,7 +32,7 @@ const cards = [
     optionMobile: ['CANOPY', 'Back End Dev', '2015'],
     description: 'Geolex Digital Space is an online events website designed to showcase digital events happening across the globe. As a Capstone project, the website is built using HTML, CSS, and JavaScript. It offers users a comprehensive and user-friendly platform to explore various digital events, including webinars, conferences, and virtual workshops The website iss design is modern and visually appealing, making it easy to navigate and browse through different events. The website is responsiveness ensures that users can access it on any device, including smartphones and tablets.',
     featuredImage: './images/portfolio images/geolex space.png',
-    desktopImage: './images/first-capstone.png',
+    desktopImage: './images/portfolio images/geolexspace 2.png',
     technologies: ['html', 'css', 'javascript', 'ruby'],
     linktoliveversion: 'https://richardchileya.github.io/capstone-project-1/',
     linktosource: 'https://github.com/RichardChileya/capstone-project-1',
