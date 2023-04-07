@@ -1167,3 +1167,7 @@ a .btn-two {
   background-color: #5e6c84;
   gap: 4px;
 }
+
+.ruby-icon {
+  width: 50px;
+}
